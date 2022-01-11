@@ -134,19 +134,23 @@ blockquote {
     border-radius: 5px;
     color: #FFFFFF;
     margin: 50px 0px;
+   /* width: 800px; */
     display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+    flex-wrap: column;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .action h4 {
-    
+   margin: 0px;
 }
 
 .action p {
+   margin-top: 0px;
 }
 
 .action button {
+    margin-left: auto;
     
 }
 
